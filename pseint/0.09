@@ -1,0 +1,13 @@
+Proceso ejemplo_9
+	//condicional simple 2
+	//definicion
+	Definir estrato Como Entero;
+	//entrada
+	Escribir "digite su estrato";
+	Leer estrato;
+	//proceso - salida
+	Escribir "bienvenido al SENA Regional caldas";
+	si (estrato < 3) Entonces
+		Escribir "puede aplicar para apoyos de sostenimiento";
+	FinSi
+FinProceso

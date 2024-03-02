@@ -1,0 +1,25 @@
+Proceso ejemplo_11
+	//condicional doble 2
+	//se tiene el resultado de un examen para un 
+	//aprendiz. si la nota es menor a 3, es decir que la 
+	//perdio, de lo contrario mostrar que si ganó la nota
+	
+	//definicion
+	definir nota Como Real;
+	
+	//entrada
+	Escribir "cual es su nota?";
+	Leer  nota;
+	
+	//Proceso - salida
+	si ((nota<0) o (nota>5)) Entonces
+		Escribir "nota invalida";
+	SiNo //CONDICIONAL ANIDADO
+	  si (nota < 3) Entonces
+		  Escribir "no aprovado";
+	  SiNo
+		  Escribir "aprovado";
+	  FinSi
+	  
+	FinSi
+FinProceso

@@ -1,0 +1,16 @@
+Proceso ejemplo_10
+	//condicional doble 1
+	//definicion
+	Definir estrato Como Entero;
+	//entrada
+	Escribir "digite su estrato";
+	Leer estrato;
+	//proceso - salida
+	Escribir "bienvenido al SENA Regional caldas";
+	si (estrato <= 2) Entonces
+		Escribir "puede aplicar para apoyo de sostenimiento";
+	sino
+		Escribir "no puede acceder a la convocatoria";
+	FinSi
+	
+FinProceso
